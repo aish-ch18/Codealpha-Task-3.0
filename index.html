@@ -1,0 +1,111 @@
+ <br><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            
+            <img src="https://raw.githubusercontent.com/aish-ch18/codealpha-task-3/main/image%20aish.jpg.png" alt="Your Photo" class="profile-photo">
+            <nav>
+                <ul>
+                    <li><button onclick="showSection('home')">Home</button></li>
+                    <li><button onclick="showSection('about')">About me</button></li>
+                    <li><button onclick="showSection('skills')">Skills</button></li>
+                    <li><button onclick="showSection('projects')">Projects</button></li>
+                    <li><button onclick="showSection('contact')">Contact</button></li>
+                  <li><button onclick="showSection('links')">Links</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="content-section" style="display: none;">
+            <h2>About Me</h2>
+          <p>Hello! I'm Aishwarya Halemani, an enthusiastic student specializing in Artificial Intelligence and Machine Learning. With a strong foundation in data analysis, algorithms, and programming, I am passionate about exploring the endless possibilities of AI/ML to solve real-world problems. Currently, I'm delving into projects that enhance my skills in predictive modeling, deep learning, and natural language processing. I am always eager to learn and collaborate on innovative projects that push the boundaries of technology</p>
+          <h2>Education</h2>
+            <p>Jain University, Bangalore.</p>
+           <p>First sem score: 8.2</p>
+          
+            <h2>Email:</h2>
+           <p>chandrashekaraish@gmail.com</p>
+            <h2>Address:</h2>
+          <p>Basvangudi, Bangalore.</p>
+          <p>580026</p>
+        </section>
+        <section id="skills" class="content-section" style="display: none;">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+              <li>Python</li>
+              <li>Machine Learning</li>
+              <li>Data science</li>
+              <li>Sketching</li>
+            </ul>
+        </section>
+        <section id="projects" class="content-section" style="display: none;">
+            <h2>Projects</h2>
+          <h2>Ongoing Project(Group):-</h2>
+          <h2>1.SENSOR-MÁTI
+Real-Time Navigation and Object Recognition App for the
+Visually Impaired </h2>
+          <p>The proposed project aims to assist visually impaired individuals by transforming the visual world into an audio experience. Utilizing image processing and machine learning, the system detects real-time objects through a camera and communicates their presence and location via audio output. This technology seeks to improve accuracy and performance compared to existing solutions, enabling visually impaired people to navigate independently. By offering an alternative to tools like screen readers and Braille devices, this project aims to create a more inclusive environment and significantly enhance the quality of life for those with visual disabilities.</p>
+          <h2>Project Objectives:</h2>
+          <p>Enhancing Independence: Empower visually impaired individuals with tools for independent navigation and object recognition, boosting their confidence and efficiency in movement.</p>
+          <p>Improving Accessibility: Provide real-time navigation assistance and object recognition to enhance accessibility in various environments, including indoor spaces, public transportation, and outdoor settings.</p>
+          <p>Increasing Safety: Enhance user safety by delivering alerts and guidance to avoid obstacles, navigate unfamiliar areas, and identify objects in their surroundings.</p>
+          <p>Promoting Inclusivity: Leverage technology to bridge the gap between visually impaired individuals and the sighted world, fostering better communication and interaction in social and professional settings.</p>
+          <p>Enhancing Quality of Life: Offer a reliable and user-friendly tool that supports daily activities, fosters independence, and promotes empowerment and autonomy for visually impaired individuals.</p>
+          <h2>Project Scope:</h2>
+          <p>The Sensor-máti project aims to develop a real-time navigation and object recognition app for visually impaired individuals using the SSD_MOBILENET algorithm and OpenCV library. The app will provide immediate audio or tactile feedback, enhancing user autonomy and safety. Key aspects include training with the COCO Dataset, creating a user-friendly mobile interface, and extensive real-world testing. Stakeholders include visually impaired users, assistive technology developers, and accessibility organizations. Comprehensive documentation and user feedback mechanisms will support ongoing improvements.</p>
+          <h2>Conclusions and Future Enhancements:</h2>
+          <p>Sensor-máti, a real-time navigation and object recognition app for visually impaired individuals, has significantly enhanced users' mobility and autonomy. Its advanced features and user-friendly interface provide accurate and reliable information, enabling safe and independent navigation. The app's real-time feedback and cutting-edge object recognition algorithms empower users to confidently identify objects and obstacles in various environments. Future enhancements include integrating advanced AI for improved object recognition, adding indoor navigation features, expanding language support, and incorporating gamification and wearable device integration. Continuous user feedback and technological updates will further refine Sensor-máti, ensuring it remains an indispensable tool for visually impaired individuals.</p>
+          <h2>2.Research Paper:-</h2>
+          <h2>Semi-Supervised Learning for Image Classification</h2>
+          <p>-The research paper I worked on addressed the challenge of hyperspectral image (HSI) classification using few-shot learning, which remains problematic due to the scarcity of labeled datasets. </p>
+          <p>-Traditional deep learning models such as CNNs, RNNs, and generative models typically require large datasets for tasks like image classification, registration, and segmentation.</p>
+          <p>-To tackle this issue, our paper explored the use of contrastive learning, a promising technique that minimizes the distance between samples of the same class while maximizing the distance between samples of different classes.</p>
+          <p>-This approach is particularly crucial in scenarios with low-density levels.</p>
+          <p>-Our objective was to enhance the robustness of deep learning models in few-shot learning applications, even when dealing with noisy and sparse data.</p>
+           <p>-Additionally, we emphasized the importance of selecting an appropriate target journal early in the research process to meet the expectations of the readership and increase the likelihood of acceptance.</p>
+           <p>-We also highlighted the significance of proper formatting, drafting a plausible abstract, and clearly formulating research problems in the introduction to improve the presentation of research findings.</p>
+           <p>-The paper aimed to review existing literature on few-shot learning for HSI classification, analyze past and current advancements, identify future trends, and establish research questions to further the current knowledge in the field.</p>
+          <a href="https://ijrpr.com/uploads/V5ISSUE6/IJRPR29602.pdf">Research paper link </a>
+          
+        </section>
+        <section id="contact" class="content-section" style="display: none;">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+      <section id="links" class="content-section" style="display: none;">
+        <h2>Links</h2>
+        <a href="https://github.com/aish-ch18">My GitHub </a> <br>
+        <a href="www.linkedin.com/in/aishwaryahalemani">My LinkedIn</a> <br>
+        <a href="">My Leetcode</a> <br>
+        <a href="https://www.instagram.com/art_gallery_ach/">My Instagram</a> <br>
+       </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
